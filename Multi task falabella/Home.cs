@@ -14,6 +14,7 @@ namespace Multi_task_falabella
         public Home()
         {
             InitializeComponent();
+            this.StartPosition = FormStartPosition.CenterScreen;
         }
 
         private void btnPublicidadSS_Click(object sender, EventArgs e)

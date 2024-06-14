@@ -17,6 +17,7 @@
 
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Home));
             this.btnPublicidadSS = new System.Windows.Forms.Button();
             this.btnSalirHome = new System.Windows.Forms.Button();
             this.SuspendLayout();
@@ -50,6 +51,7 @@
             this.ClientSize = new System.Drawing.Size(649, 524);
             this.Controls.Add(this.btnSalirHome);
             this.Controls.Add(this.btnPublicidadSS);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Home";
             this.Text = "Multi-Task ADS";
