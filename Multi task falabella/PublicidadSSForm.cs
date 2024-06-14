@@ -9,9 +9,9 @@ using System.Windows.Forms;
 
 namespace Multi_task_falabella
 {
-    public partial class Form1 : Form
+    public partial class PublicidadSSForm : Form
     {
-        public Form1()
+        public PublicidadSSForm()
         {
             InitializeComponent();
         }
