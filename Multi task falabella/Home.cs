@@ -22,5 +22,11 @@ namespace Multi_task_falabella
             PublicidadSSForm publicidadSSForm = new PublicidadSSForm();
             publicidadSSForm.Show();
         }
+
+        private void btnSalirHome_Click(object sender, EventArgs e)
+        {
+            // Cerrar la aplicación
+            Application.Exit();
+        }
     }
 }
