@@ -28,5 +28,10 @@ namespace Multi_task_falabella
             // Cerrar la aplicación
             Application.Exit();
         }
+
+        private void Home_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
