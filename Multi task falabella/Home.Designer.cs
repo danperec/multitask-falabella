@@ -2,15 +2,8 @@
 {
     partial class Home
     {
-        /// <summary>
-        /// Variable del diseñador necesaria.
-        /// </summary>
         private System.ComponentModel.IContainer components = null;
 
-        /// <summary>
-        /// Limpiar los recursos que se estén usando.
-        /// </summary>
-        /// <param name="disposing">true si los recursos administrados se deben desechar; false en caso contrario.</param>
         protected override void Dispose(bool disposing)
         {
             if (disposing && (components != null))
@@ -20,43 +13,37 @@
             base.Dispose(disposing);
         }
 
-        #region Código generado por el Diseñador de Windows Forms
+        #region Windows Form Designer generated code
 
-        /// <summary>
-        /// Método necesario para admitir el Diseñador. No se puede modificar
-        /// el contenido de este método con el editor de código.
-        /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Home));
-            this.button1 = new System.Windows.Forms.Button();
+            this.btnPublicidadSS = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // button1
+            // btnPublicidadSS
             // 
-            this.button1.Location = new System.Drawing.Point(61, 79);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(152, 65);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "Publicidad SS";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btnPublicidadSS.Location = new System.Drawing.Point(100, 50);
+            this.btnPublicidadSS.Name = "btnPublicidadSS";
+            this.btnPublicidadSS.Size = new System.Drawing.Size(100, 23);
+            this.btnPublicidadSS.TabIndex = 0;
+            this.btnPublicidadSS.Text = "Publicidad SS";
+            this.btnPublicidadSS.UseVisualStyleBackColor = true;
+            this.btnPublicidadSS.Click += new System.EventHandler(this.btnPublicidadSS_Click);
             // 
-            // Home
+            // MainForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1143, 692);
-            this.Controls.Add(this.button1);
-            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Name = "Home";
-            this.Text = "Multi-Task ADS";
+            this.ClientSize = new System.Drawing.Size(284, 261);
+            this.Controls.Add(this.btnPublicidadSS);
+            this.Name = "MainForm";
+            this.Text = "Publicidad SS App";
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnPublicidadSS;
     }
 }
-
